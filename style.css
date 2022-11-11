@@ -5,7 +5,8 @@
 body {
   margin: 0px;
   display: flex;
-  flex-direction: vertical;
+  flex-direction: column;
+  
   background-color: black;
 }
 
@@ -21,7 +22,7 @@ body {
 .side .title {
   color: white;
   font-family: 'Raleway', monospace;
-  font-size: 8vw;
+  font-size: 9vw;
   margin: 0px 15vw;
   width: 70vw
 }
@@ -39,6 +40,7 @@ body {
   z-index: 4;
   color: white;
   text-align: center;
-  font-family: 'Fragment Mono', monospace;
+  font-family: 'Karla', monospace;
   margin-top: 60vh;
+  font-size: 4vw;
 }
