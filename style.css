@@ -1,7 +1,7 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  background-color: black;
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: vertical;
 }
 
 .side {
@@ -9,7 +9,7 @@ html, body {
   width: 100%;
   display: grid;
   place-items: center;
-  overflow: hidden;
+  overflow: auto;
   position: absolute;
 }
 
@@ -29,4 +29,12 @@ html, body {
 #right-side {
   background-color: lightblue;
   z-index: 1;
+}
+.header {
+  display: grid;
+  place-items: center;
+  z-index: 4;
+  color: black;
+  position: absolute;
+  margin-top: 1000px;
 }
