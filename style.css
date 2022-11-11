@@ -11,30 +11,33 @@ body {
 }
 
 .side {
-  height: 50vh;
+  height: 25vh;
   width: 100%;
   display: grid;
   place-items: center;
   overflow: auto;
   position: absolute;
+  border-radius: 10px;
 }
 
 .side .title {
   color: white;
   font-family: 'Raleway', monospace;
-  font-size: 9vw;
+  font-size: 4vw;
   margin: 0px 15vw;
-  width: 70vw
+
 }
 
 #left-side {
   background-color: darkgray;
   z-index: 2;
+  width: 40vw;
 }
 
 #right-side {
   background-color: lightblue;
   z-index: 1;
+  width: 40vw;
 }
 .header {
   z-index: 4;
