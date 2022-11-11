@@ -1,21 +1,26 @@
-html, body {
-  height: 100%;
-  width: 100%;
+* {
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: vertical;
   background-color: black;
 }
 
 .side {
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   display: grid;
   place-items: center;
-  overflow: hidden;
+  overflow: auto;
   position: absolute;
 }
 
 .side .title {
   color: white;
-  font-family: Monaco, monospace;
+  font-family: 'Raleway', monospace;
   font-size: 8vw;
   margin: 0px 15vw;
   width: 70vw
@@ -29,4 +34,11 @@ html, body {
 #right-side {
   background-color: lightblue;
   z-index: 1;
+}
+.header {
+  z-index: 4;
+  color: white;
+  text-align: center;
+  font-family: 'Fragment Mono', monospace;
+  margin-top: 60vh;
 }
