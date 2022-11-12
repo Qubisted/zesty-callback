@@ -17,33 +17,36 @@ body {
   place-items: center;
   overflow: auto;
   position: absolute;
-  border-radius: 10px;
+  border-radius: 0% 0% 0% 50%;
 }
 
 .side .title {
-  color: white;
-  font-family: 'Raleway', monospace;
-  font-size: 4vw;
+  color: greenyellow;
+  font-family: 'IBM Plex Sans', monospace;
+  font-size: 4vh;
   margin: 0px 15vw;
+  width: 70vw;
 
 }
 
 #left-side {
-  background-color: darkgray;
+  background-color: black;
   z-index: 2;
-  width: 40vw;
+  
 }
 
 #right-side {
-  background-color: lightblue;
+  background-color: blueviolet;
   z-index: 1;
-  width: 40vw;
+  
 }
 .header {
   z-index: 4;
   color: white;
   text-align: center;
-  font-family: 'Karla', monospace;
-  margin-top: 60vh;
-  font-size: 4vw;
+  font-family: 'Righteous', monospace;
+  margin-top: 3px;
+  margin-left: 3px;
+  position: absolute;
+  font-size: 5vw;
 }
