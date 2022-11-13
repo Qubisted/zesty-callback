@@ -1,5 +1,6 @@
 * {
   text-align: center;
+  font-smooth: always;
 }
 
 body {
@@ -17,13 +18,12 @@ body {
   place-items: center;
   overflow: auto;
   position: absolute;
-  border-radius: 0% 0% 0% 50%;
 }
 
 .side .title {
   color: greenyellow;
   font-family: 'IBM Plex Sans', monospace;
-  font-size: 4vh;
+  font-size: 5vmax;
   margin: 0px 15vw;
   width: 70vw;
 
@@ -49,4 +49,8 @@ body {
   margin-left: 3px;
   position: absolute;
   font-size: 5vw;
+}
+
+.chat {
+  margin-top: 100px;
 }
