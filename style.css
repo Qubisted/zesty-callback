@@ -23,7 +23,7 @@ body {
 .side .title {
   color: greenyellow;
   font-family: 'IBM Plex Sans', monospace;
-  font-size: 5vmax;
+  font-size: 4vw;
   margin: 0px 15vw;
   width: 70vw;
 
@@ -48,9 +48,12 @@ body {
   margin-top: 3px;
   margin-left: 3px;
   position: absolute;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 .chat {
-  margin-top: 100px;
+  margin-top: 30vh;
+  color: white;
+  font-size: 2vw;
+  font-family: 'IBM Plex Sans', monospace;
 }
